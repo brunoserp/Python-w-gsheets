@@ -6,12 +6,13 @@ Repare que na coluna de setembro falta a coluna de preço interno, que pode ser 
 
 <hr>
 <h3>Como as bibliotecas do Python interagem com o Google Sheets </h3>
-Uma API é uma forma de permitir que diferentes sistemas se comuniquem entre si. <br>
-A biblioteca OAuth 2.0 garante segurança ao acessar conteúdos protegidos, como o Google Sheets, dando acesso à determinada conta sem usar o login e senha. <br>
-Uma vez liberado o acesso por meio do OAuth 2.0, o gspread funciona como meio para acessar o Google Sheets. <br>
+<br>
+Uma API é uma forma de permitir que diferentes sistemas se comuniquem entre si. <hr>
+A biblioteca OAuth 2.0 garante segurança ao acessar conteúdos protegidos, como o Google Sheets, dando acesso à determinada conta sem usar o login e senha. <hr>
+Uma vez liberado o acesso por meio do OAuth 2.0, o gspread funciona como meio para acessar o Google Sheets. <hr>
 Essa comunicação se dá por meio de requisições, que são solicitações com padrões definidos. Por exemplo, as requisições GET/POST/PUT são usadas para ler, enviar e atualizar dados, respectivamente. O gspread traduz os comandos do Python para a linguagem própria da requisição.
 
-<hr>
+<br>
 # Caso prático
 Para gerar as 3 planilhas citadas, usei o programa 'gerador de planilhas.py'
 O programa da automação é o 'gspread_prática.py', que segue o passo a passo:
