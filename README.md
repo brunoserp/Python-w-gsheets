@@ -21,7 +21,7 @@ Essa comunicação se dá por meio de requisições, que são solicitações com
     <li>Extração das informações de cada uma das 3 tabelas.</li>
     <li>Aplicação das fórmulas: primeiramente, um concatenado na planilha dimensão e na de setembro, e depois o PROCX na tabela de setembro puxando o preço interno da tabela dimensão, por meio dos concatenados.</li>
     <li>Colagem dos valores do PROCX e exclusão das colunas concatenadas.</li>
-    <li>Junção da tabela de setembro com a tabela com dados históricos.</li>
+    <li>Junção da tabela de setembro com a tabela com dados históricos.</li></ol>
   
 <p>Vale ressaltar que a aplicação das fórmulas foi feita pela função batch_update do gspread, que envia uma única requisição ao API do Google Sheets com a aplicação da fórmula em todas as linhas de uma única vez, melhorando a performance do programa, uma vez que há um limite de requisições por minuto.</p>
   
