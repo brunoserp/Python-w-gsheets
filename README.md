@@ -5,7 +5,7 @@ Repare que na coluna de setembro falta a coluna de preço interno, que pode ser 
 ![image](https://github.com/user-attachments/assets/43f3594c-03f2-4f57-b0a1-3575b3aa3763)
 
 <hr>
-# Como as bibliotecas do Python interagem com o Google Sheets
+<h3>Como as bibliotecas do Python interagem com o Google Sheets </h3>
 Uma API é uma forma de permitir que diferentes sistemas se comuniquem entre si. <br>
 A biblioteca OAuth 2.0 garante segurança ao acessar conteúdos protegidos, como o Google Sheets, dando acesso à determinada conta sem usar o login e senha. <br>
 Uma vez liberado o acesso por meio do OAuth 2.0, o gspread funciona como meio para acessar o Google Sheets. <br>
