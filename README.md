@@ -13,6 +13,7 @@ Uma vez liberado o acesso por meio do OAuth 2.0, o gspread funciona como meio pa
 Essa comunicação se dá por meio de requisições, que são solicitações com padrões definidos. Por exemplo, as requisições GET/POST/PUT são usadas para ler, enviar e atualizar dados, respectivamente. O gspread traduz os comandos do Python para a linguagem própria da requisição.
 
 <h3>Caso prático</h3>
+<hr>
 <p>Para gerar as 3 planilhas citadas, usei o programa 'gerador de planilhas.py'.</p>
 <p>O programa da automação é o 'gspread_prática.py', que segue o passo a passo:</p>
 
