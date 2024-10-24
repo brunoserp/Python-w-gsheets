@@ -30,7 +30,7 @@ Vale ressaltar que a aplicação das fórmulas foi feita pela função batch_upd
   <li>Junção da tabela de setembro com a tabela com dados históricos</li>
 </ol>
 
-<h4>Resultado</h4>
+<h3>Resultado</h3>
 <hr>
 Dados de setembro incluídos na planilha de dados compilados. <br>
 https://github.com/brunoserp/Python-w-gsheets/blob/main/tabela%20final.jpg
