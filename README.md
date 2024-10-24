@@ -12,18 +12,18 @@ A biblioteca OAuth 2.0 garante segurança ao acessar conteúdos protegidos, como
 Uma vez liberado o acesso por meio do OAuth 2.0, o gspread funciona como meio para acessar o Google Sheets. <br>
 Essa comunicação se dá por meio de requisições, que são solicitações com padrões definidos. Por exemplo, as requisições GET/POST/PUT são usadas para ler, enviar e atualizar dados, respectivamente. O gspread traduz os comandos do Python para a linguagem própria da requisição.
 
-<br>
-# Caso prático
-Para gerar as 3 planilhas citadas, usei o programa 'gerador de planilhas.py'
-O programa da automação é o 'gspread_prática.py', que segue o passo a passo:
+<h3>Caso prático</h3>
+<hr>
+Para gerar as 3 planilhas citadas, usei o programa 'gerador de planilhas.py'<br>
+O programa da automação é o 'gspread_prática.py', que segue o passo a passo:<br>
 
-1) Acesso às 3 planilhas do Google Sheets por meio de uma credencial que do meu e-mail e que permite acesso aos arquivos. Isso é feito por uma biblioteca do Google
+1) Acesso às 3 planilhas do Google Sheets por meio de uma credencial que do meu e-mail e que permite acesso aos arquivos. Isso é feito por uma biblioteca do Google.<br>
 
-A partir daí, todos os passos foram feitos pelo gspread:
-2) Extração das informações de cada uma das 3 tabelas
-3) Aplicação das fórmulas: primeiramente, um concatenado na planilha dimensão e na de setembro, e depois o PROCX na tabela de setembro puxando o preço interno da tabela dimensão, por meio dos concatenados.
+A partir daí, todos os passos foram feitos pelo gspread:<br>
+2) Extração das informações de cada uma das 3 tabelas<br>
+3) Aplicação das fórmulas: primeiramente, um concatenado na planilha dimensão e na de setembro, e depois o PROCX na tabela de setembro puxando o preço interno da tabela dimensão, por meio dos concatenados.<br>
 
-Vale ressaltar que a aplicação das fórmulas foi feita pela função batch_update do gspread, que envia uma única requisição ao API do Google Sheets com a aplicação da fórmula em todas as linhas de uma única vez, melhorando a performance do programa, uma vez que há um limite de requisições por minuto.
+Vale ressaltar que a aplicação das fórmulas foi feita pela função batch_update do gspread, que envia uma única requisição ao API do Google Sheets com a aplicação da fórmula em todas as linhas de uma única vez, melhorando a performance do programa, uma vez que há um limite de requisições por minuto.<br>
 
-4) Colagem dos valores do PROCX e exclusão as colunas concatenadas
-5) Junção da tabela de setembro com a tabela com dados históricos.
+4) Colagem dos valores do PROCX e exclusão as colunas concatenadas<br>
+5) Junção da tabela de setembro com a tabela com dados históricos<br>
