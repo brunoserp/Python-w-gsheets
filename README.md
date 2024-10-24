@@ -24,8 +24,8 @@ Essa comunicação se dá por meio de requisições, que são solicitações com
     <li>Colagem dos valores do PROCX e exclusão das colunas concatenadas.</li>
     <li>Junção da tabela de setembro com a tabela com dados históricos.</li>
 <br>
-Vale ressaltar que a aplicação das fórmulas foi feita pela função batch_update do gspread, que envia uma única requisição ao API do Google Sheets com a aplicação da fórmula em todas as linhas de uma única vez, melhorando a performance do programa, uma vez que há um limite de requisições por minuto.
-<br>
+Vale ressaltar que a aplicação das fórmulas foi feita pela função batch_update do gspread, que envia uma única requisição ao API do Google Sheets com a aplicação da fórmula em todas as linhas de uma única vez, melhorando a performance do programa, uma vez que há um limite de requisições por minuto. <br>
+
   <li>Colagem dos valores do PROCX e exclusão as colunas concatenadas</li>
   <li>Junção da tabela de setembro com a tabela com dados históricos</li>
 </ol>
@@ -33,5 +33,6 @@ Vale ressaltar que a aplicação das fórmulas foi feita pela função batch_upd
 <h4>Resultado</h4>
 <hr>
 Dados de setembro incluídos na planilha de dados compilados. <br>
-![image](https://github.com/user-attachments/assets/237a4225-c97e-42b4-aa3d-3a02f21e44e5)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/107195623/379911695-237a4225-c97e-42b4-aa3d-3a02f21e44e5.png)
+
 
