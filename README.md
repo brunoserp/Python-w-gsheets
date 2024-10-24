@@ -17,13 +17,15 @@ Essa comunicação se dá por meio de requisições, que são solicitações com
 Para gerar as 3 planilhas citadas, usei o programa 'gerador de planilhas.py'<br>
 O programa da automação é o 'gspread_prática.py', que segue o passo a passo:<br>
 
-1) Acesso às 3 planilhas do Google Sheets por meio de uma credencial que do meu e-mail e que permite acesso aos arquivos. Isso é feito por uma biblioteca do Google.<br>
-
-A partir daí, todos os passos foram feitos pelo gspread:<br>
-2) Extração das informações de cada uma das 3 tabelas<br>
-3) Aplicação das fórmulas: primeiramente, um concatenado na planilha dimensão e na de setembro, e depois o PROCX na tabela de setembro puxando o preço interno da tabela dimensão, por meio dos concatenados.<br>
-
-Vale ressaltar que a aplicação das fórmulas foi feita pela função batch_update do gspread, que envia uma única requisição ao API do Google Sheets com a aplicação da fórmula em todas as linhas de uma única vez, melhorando a performance do programa, uma vez que há um limite de requisições por minuto.<br>
-
-4) Colagem dos valores do PROCX e exclusão as colunas concatenadas<br>
-5) Junção da tabela de setembro com a tabela com dados históricos<br>
+<ol>
+  <li>1) Acesso às 3 planilhas do Google Sheets por meio de uma credencial que do meu e-mail e que permite acesso aos arquivos. Isso é feito por uma biblioteca do Google.</li>
+  
+  A partir daí, todos os passos foram feitos pelo gspread:<br>
+  <li>2) Extração das informações de cada uma das 3 tabelas<br>
+  3) Aplicação das fórmulas: primeiramente, um concatenado na planilha dimensão e na de setembro, e depois o PROCX na tabela de setembro puxando o preço interno da tabela dimensão, por meio dos concatenados.<br></li>
+  
+  Vale ressaltar que a aplicação das fórmulas foi feita pela função batch_update do gspread, que envia uma única requisição ao API do Google Sheets com a aplicação da fórmula em todas as linhas de uma única vez, melhorando a performance do programa, uma vez que há um limite de requisições por minuto.<br>
+  
+  <li>4) Colagem dos valores do PROCX e exclusão as colunas concatenadas</li>
+  5) Junção da tabela de setembro com a tabela com dados históricos</li>
+</ol>
