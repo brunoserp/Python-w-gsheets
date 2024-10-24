@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6b4c07dc-5606-4cf6-9f5e-9c05d3bfcb04)# Python e Google Sheets
+# Python e Google Sheets
 Suponha que você receba uma planilha com preços da concorrência de setembro com as colunas data | tipo | categoria | preço concorrência | e te peçam para juntar numa outra planilha com dados históricos, com as colunas | tipo | categoria | preço concorrência | preço interno |, tudo no Google Sheets.
 Repare que na coluna de setembro falta a coluna de preço interno, que pode ser incluída por uma planilha dimensão com os preços mensais da sua empresa para todos os produtos da concorrência.
 
