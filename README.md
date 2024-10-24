@@ -29,3 +29,8 @@ Vale ressaltar que a aplicação das fórmulas foi feita pela função batch_upd
   <li>Colagem dos valores do PROCX e exclusão as colunas concatenadas</li>
   <li>Junção da tabela de setembro com a tabela com dados históricos</li>
 </ol>
+
+<h4>Resultado</h4>
+<hr>
+Dados de setembro incluídos na planilha de dados compilados.
+![image](https://github.com/user-attachments/assets/f3376603-e7da-40ab-8bc4-76d2d78212b9)
