@@ -14,7 +14,9 @@ Essa comunicação se dá por meio de requisições, que são solicitações com
 
 <h3>Caso prático</h3>
 <hr>
-<p>Para gerar as 3 planilhas citadas, usei o programa 'gerador de planilhas.py'.</p>
+<p>Para gerar as planilhas de setembro e a compilada, usei o programa 'gerador de planilhas.py'.</p>
+<p>Para gerar a planilha dimensão, usei o programa 'planilha dimensao.py'.</p>
+<br>
 <p>O programa da automação é o 'gspread_prática.py', que segue o passo a passo:</p>
 
 <ol>
